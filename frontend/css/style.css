@@ -1,0 +1,105 @@
+/* tüm tasrım pixel olacaktır */
+body {
+    font-family: 'Silkscreen', cursive;
+    background-color: #816797;
+}
+/* tüm tasrım pixel olacaktır */
+footer {
+    margin: auto;
+    width: 15%;
+    padding: 5px;
+}
+p{
+    color: #1B2430;
+}
+/*----------------------------*/
+.footer-ul {
+    list-style-type: none;
+    margin: auto;
+    overflow: hidden;
+    color: #D6D5A8 ;
+}
+/* Nav bar*/
+.header{
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding-left: 200px;
+}
+.nav-link{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.menu-item{
+    float: left;
+}
+.menu-item:link, .menu-item:visited{
+    background-color: #51557E;
+    border: 2px solid #816797;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: #D6D5A8;
+      }
+      
+.menu-item:hover, .menu-item:active {
+    color: #D6D5A8;
+    background-color: #1B2430;
+      }
+/* HEADER */
+.header-h1{
+    margin: auto;
+    width: 15%;
+    padding: 5px;
+}
+
+.post {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: #D6D5A8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 10px;
+    margin-bottom: 25px;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 10px 20px;
+    
+  }
+  .post-image{
+    float: left;
+    padding: 15px;
+  }
+  .bio {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: #D6D5A8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 10px;
+  }
+.bio-image{
+    float: left;
+    padding: 15px;
+    width: 300px;
+}
+#menu-item:link, #menu-item:visited{
+    background-color: #51557E;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: #D6D5A8;
+      }
+      
+#menu-item:hover, #menu-item:active {
+    color: #D6D5A8;
+    background-color: #1B2430;
+      }
